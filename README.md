@@ -57,7 +57,7 @@ A **plugin marketplace** is a Git repository that acts as a catalog of Claude Co
 
 ```bash
 # Add the marketplace (do this once)
-claude plugin marketplace add YOUR_ORG/plugin-marketplace
+claude plugin marketplace add coherentsolutionstrainingcenter/plugin-marketplace
 
 # Install individual plugins
 claude plugin install code-quality@ccm-training-marketplace
