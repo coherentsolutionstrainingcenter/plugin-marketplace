@@ -1,0 +1,10 @@
+{
+  "name": "code-quality",
+  "description": "Code quality analysis skills for reviews, refactoring suggestions, and naming convention enforcement. Educational plugin demonstrating multi-skill patterns.",
+  "version": "1.0.0",
+  "author": {
+    "name": "CCM Training"
+  },
+  "license": "MIT",
+  "keywords": ["code-review", "refactoring", "naming", "quality", "education"]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "ccm-training-marketplace",
+  "owner": {
+    "name": "CCM Training (Claude Code Mastering)"
+  },
+  "metadata": {
+    "description": "Educational plugin marketplace for Claude Code Mastering training. Four plugins demonstrating skills, hooks, agents, and combined patterns.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "code-quality",
+      "source": "./plugins/code-quality",
+      "description": "Code quality skills: review, refactoring suggestions, and naming convention checks. Demonstrates multi-skill plugins and $ARGUMENTS usage.",
+      "keywords": ["code-review", "refactoring", "naming", "quality", "education"],
+      "category": "development"
+    },
+    {
+      "name": "git-guardian",
+      "source": "./plugins/git-guardian",
+      "description": "Git safety guardrails using hooks to prevent destructive operations and log file changes. Demonstrates hooks.json, PreToolUse blocking, and PostToolUse messaging.",
+      "keywords": ["git", "safety", "hooks", "guardrails", "education"],
+      "category": "development"
+    },
+    {
+      "name": "team-standards",
+      "source": "./plugins/team-standards",
+      "description": "Team coding standards enforcer with a custom agent, supporting skills, and settings. Demonstrates agents + skills + settings working together.",
+      "keywords": ["standards", "agents", "team", "conventions", "education"],
+      "category": "development"
+    },
+    {
+      "name": "project-bootstrap",
+      "source": "./plugins/project-bootstrap",
+      "description": "Full-featured project scaffolding combining skills, hooks, agents, and settings. Demonstrates all plugin capabilities together.",
+      "keywords": ["scaffold", "bootstrap", "comprehensive", "all-features", "education"],
+      "category": "development"
+    }
+  ]
+}

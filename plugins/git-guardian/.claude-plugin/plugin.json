@@ -1,0 +1,10 @@
+{
+  "name": "git-guardian",
+  "description": "Git safety guardrails using hooks to prevent destructive operations and log file changes. Educational plugin demonstrating hooks.json configuration.",
+  "version": "1.0.0",
+  "author": {
+    "name": "CCM Training"
+  },
+  "license": "MIT",
+  "keywords": ["git", "safety", "hooks", "guardrails", "education"]
+}

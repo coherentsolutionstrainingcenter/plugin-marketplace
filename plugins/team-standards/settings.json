@@ -1,0 +1,33 @@
+{
+  "_comment": "This settings.json demonstrates how plugins can expose configurable defaults. Teams fork the plugin and customize these values to match their conventions.",
+
+  "team_name": "Example Corp Engineering",
+  "strictness": "moderate",
+
+  "languages": ["typescript", "javascript"],
+
+  "code_rules": {
+    "max_function_length": 30,
+    "max_file_length": 300,
+    "max_parameters": 4,
+    "require_explicit_return_types": true,
+    "forbid_any_type": true,
+    "require_strict_mode": true
+  },
+
+  "documentation_rules": {
+    "require_jsdoc_on_exports": true,
+    "require_module_readme": true,
+    "require_changelog_entries": true,
+    "require_param_descriptions": true,
+    "require_return_descriptions": true,
+    "require_examples_on_public_api": true
+  },
+
+  "custom_rules": {
+    "no_console_log": true,
+    "no_barrel_exports": true,
+    "require_error_boundaries": true,
+    "import_order": ["builtin", "external", "internal", "relative"]
+  }
+}

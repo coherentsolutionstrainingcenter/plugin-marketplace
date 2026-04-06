@@ -1,0 +1,10 @@
+{
+  "name": "team-standards",
+  "description": "Team coding standards enforcement using a custom agent backed by skills and settings. Educational plugin demonstrating agent + skill + settings patterns.",
+  "version": "1.0.0",
+  "author": {
+    "name": "CCM Training"
+  },
+  "license": "MIT",
+  "keywords": ["standards", "agents", "team", "conventions", "education"]
+}

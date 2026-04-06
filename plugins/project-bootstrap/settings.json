@@ -1,0 +1,47 @@
+{
+  "_comment": "Default project templates and configuration. The setup-wizard agent reads these to suggest defaults. Teams can customize for their stack.",
+
+  "default_project_type": "node-api",
+  "default_license": "MIT",
+  "default_author": "Your Name",
+
+  "templates": {
+    "node-api": {
+      "node_version": "20",
+      "runtime": "node",
+      "language": "typescript",
+      "framework": "express",
+      "test_framework": "vitest",
+      "linter": "eslint",
+      "formatter": "prettier",
+      "ci": "github-actions",
+      "docker": true
+    },
+    "react-app": {
+      "node_version": "20",
+      "language": "typescript",
+      "bundler": "vite",
+      "css": "tailwind",
+      "test_framework": "vitest",
+      "linter": "eslint",
+      "formatter": "prettier",
+      "ci": "github-actions",
+      "docker": false
+    },
+    "python-cli": {
+      "python_version": "3.12",
+      "cli_framework": "click",
+      "test_framework": "pytest",
+      "linter": "ruff",
+      "formatter": "black",
+      "ci": "github-actions",
+      "docker": false
+    }
+  },
+
+  "always_include": [
+    ".gitignore",
+    "README.md",
+    "LICENSE"
+  ]
+}

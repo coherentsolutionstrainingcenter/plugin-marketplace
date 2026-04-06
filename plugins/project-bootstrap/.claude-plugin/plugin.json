@@ -1,0 +1,10 @@
+{
+  "name": "project-bootstrap",
+  "description": "Full-featured project scaffolding combining skills, hooks, agents, and settings. Educational plugin demonstrating all plugin capabilities working together.",
+  "version": "1.0.0",
+  "author": {
+    "name": "CCM Training"
+  },
+  "license": "MIT",
+  "keywords": ["scaffold", "bootstrap", "comprehensive", "all-features", "education"]
+}
