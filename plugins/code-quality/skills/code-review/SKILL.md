@@ -4,6 +4,7 @@ description: >
   Performs a structured code review. Use when the user asks to "review code",
   "check code quality", "find code issues", "audit this code", or requests
   a code review of any file, function, or module.
+color: green
 ---
 
 # Code Review
